@@ -1,5 +1,6 @@
 # websig
 Trabalho prático de websig
+
 README - Guia de Início Rápido
 
 Este documento fornece instruções para configurar e utilizar o sistema de mapeamento geoespacial descrito abaixo. Ele abrange a instalação de todas as dependências necessárias, configuração do servidor GeoServer, criação de estilos personalizados e publicação dos dados de mapas. Além disso, detalha a criação de um mapa interativo utilizando a biblioteca Leaflet.
