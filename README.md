@@ -6,6 +6,7 @@ README - Guia de Início Rápido
 Este documento fornece instruções para configurar e utilizar o sistema de mapeamento geoespacial descrito abaixo. Ele abrange a instalação de todas as dependências necessárias, configuração do servidor GeoServer, criação de estilos personalizados e publicação dos dados de mapas. Além disso, detalha a criação de um mapa interativo utilizando a biblioteca Leaflet.
 
 Pré-requisitos
+
 Antes de começar, certifique-se de ter os seguintes itens instalados em seu sistema:
 
 PostGIS - Extensão geoespacial para o banco de dados PostgreSQL.
@@ -31,6 +32,7 @@ Publique as camadas criadas no GeoServer.
 Alternativamente, você também pode operar os dados no QGIS e, em seguida, carregar os dados manipulados para o servidor GeoServer seguindo as etapas acima.
 
 Criação do Mapa Interativo
+
 Siga as etapas abaixo para criar um mapa interativo utilizando a biblioteca Leaflet:
 
 Crie um arquivo HTML e utilize a biblioteca Leaflet, juntamente com CSS e JavaScript, para escrever o código do mapa.
@@ -41,6 +43,7 @@ Crie uma base de clusters para facilitar a análise espacial dos dados.
 Salve o arquivo HTML criado.
 
 Estrutura do Projeto
+
 O projeto é organizado da seguinte forma:
 
 Data: Contém os arquivos de dados de casos de COVID e as localizações dos estádios no formato GeoJSON.
@@ -49,6 +52,7 @@ IMG: Contém o ícone utilizado para representar os estádios no mapa.
 js: Contém os resultados em JavaScript de algumas ações de mapeamento utilizando a biblioteca Leaflet.
 
 Conclusão
+
 Este guia fornece os passos iniciais para configurar e utilizar o sistema de mapeamento geoespacial descrito. Para obter mais informações e explorar recursos avançados, consulte a documentação oficial de cada uma das ferramentas mencionadas.
 
 Aproveite a criação de mapas interativos e a análise espacial dos dados geoespaciais em seu projeto!
