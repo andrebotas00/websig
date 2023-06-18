@@ -47,8 +47,11 @@ Estrutura do Projeto
 O projeto é organizado da seguinte forma:
 
 Data: Contém os arquivos de dados de casos de COVID e as localizações dos estádios no formato GeoJSON.
+
 DIST: Contém os arquivos resultantes da criação dos clusters, obtidos a partir do HTML.
+
 IMG: Contém o ícone utilizado para representar os estádios no mapa.
+
 js: Contém os resultados em JavaScript de algumas ações de mapeamento utilizando a biblioteca Leaflet.
 
 Conclusão
