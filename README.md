@@ -10,12 +10,20 @@ Pré-requisitos
 Antes de começar, certifique-se de ter os seguintes itens instalados em seu sistema:
 
 PostGIS - Extensão geoespacial para o banco de dados PostgreSQL.
+
 PostgreSQL - Sistema de gerenciamento de banco de dados relacional.
+
 pgAdmin - Ferramenta gráfica para administração do PostgreSQL.
+
 Apache Tomcat - Servidor web para executar o GeoServer.
+
 GeoServer - Servidor de mapas para publicação e visualização de dados geoespaciais.
+
 QGIS - Software de Sistemas de Informação Geográfica (SIG) para manipulação de dados geoespaciais.
+
+
 Configuração do GeoServer
+
 Siga as etapas abaixo para configurar o GeoServer:
 
 Após instalar o Apache Tomcat, crie uma conta no Apache Tomcat seguindo as instruções do site.
