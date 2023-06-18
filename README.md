@@ -31,16 +31,23 @@ Associe os estilos criados às camadas correspondentes em seus respectivos "stor
 Publique as camadas criadas no GeoServer.
 Alternativamente, você também pode operar os dados no QGIS e, em seguida, carregar os dados manipulados para o servidor GeoServer seguindo as etapas acima.
 
-Criação do Mapa Interativo
+Resumo do Projeto
 
-Siga as etapas abaixo para criar um mapa interativo utilizando a biblioteca Leaflet:
+O objetivo deste projeto foi criar um sistema de mapeamento geoespacial que exibisse informações sobre casos de COVID e estádios em Lisboa. O processo envolveu as seguintes etapas:
 
-Crie um arquivo HTML e utilize a biblioteca Leaflet, juntamente com CSS e JavaScript, para escrever o código do mapa.
-No mapa, adicione uma camada de base do OpenStreetMap (OSM) para exibir o mapa de Portugal.
-Adicione dados de casos de COVID e casos de COVID por 10 mil habitantes no mapa. Esses dados podem ser obtidos a partir dos arquivos GeoJSON localizados na pasta "Data".
-Adicione ícones para representar os 3 estádios em Lisboa. O ícone correspondente pode ser encontrado na pasta "IMG".
-Crie uma base de clusters para facilitar a análise espacial dos dados.
-Salve o arquivo HTML criado.
+Configuração do ambiente: Foram instalados o PostGIS, PostgreSQL, pgAdmin e Apache Tomcat para suportar o GeoServer.
+
+Configuração do GeoServer: O GeoServer foi instalado e configurado para funcionar corretamente no Apache Tomcat.
+
+Carga de dados: Foram carregados dois conjuntos de dados no GeoServer - casos de COVID e localizações dos estádios em Lisboa. Esses dados estavam em formato GeoJSON e foram importados para "stores" no GeoServer.
+
+Estilização dos mapas: Foram criados estilos personalizados no GeoServer para definir a aparência dos mapas. Esses estilos foram associados aos dados carregados anteriormente.
+
+Publicação dos mapas: As camadas de dados foram publicadas no GeoServer, permitindo que fossem visualizadas e acessadas através de serviços web.
+
+Criação do mapa interativo: Utilizando a biblioteca Leaflet, foi criado um arquivo HTML que exibia um mapa de Portugal com base no OpenStreetMap (OSM). Os dados de casos de COVID e estádios em Lisboa foram adicionados ao mapa. Também foi implementada uma funcionalidade de clustering para facilitar a análise espacial dos dados.
+
+Organização do projeto: Os arquivos utilizados na criação do HTML, juntamente com o HTML e o próprio README, foram organizados em pastas específicas no projeto.
 
 Estrutura do Projeto
 
