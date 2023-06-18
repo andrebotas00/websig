@@ -61,7 +61,7 @@ Estrutura do Projeto
 
 O projeto é organizado da seguinte forma:
 
-Data: Contém os arquivos de dados de casos de COVID e as localizações dos estádios no formato GeoJSON.
+Data: Contém os arquivos de dados de casos de COVID e as localizações dos estádios no formato GeoJSON. Dados Covid fornecidos através de "https://covid19.min-saude.pt/".
 
 DIST: Contém os arquivos resultantes da criação dos clusters, obtidos a partir do HTML.
 
